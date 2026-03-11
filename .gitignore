@@ -1,0 +1,7 @@
+# Security
+.env
+
+# AI Models and Databases
+local_models/
+__pycache__/
+Scrapping and indexing/recipe_vector_db/
