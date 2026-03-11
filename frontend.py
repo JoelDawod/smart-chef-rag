@@ -25,8 +25,8 @@ def chat_with_chef(user_message: str, chat_history: list) -> str:
 # Initialize the UI components
 demo = gr.ChatInterface(
     fn=chat_with_chef,
-    title="👨‍🍳 الشيف المصري الذكي",
-    description="قولي إيه المكونات اللي عندك في التلاجة، وهقولك تعمل بيهم إيه!"
+    title="👨‍🍳 الشيف العربي الذكي",
+    description="أخبرني بالمكونات المتوفرة لديك، وسأقترح عليك وصفات رائعة لتحضيرها!"
 )
 
 if __name__ == "__main__":
